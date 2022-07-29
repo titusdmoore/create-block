@@ -5,11 +5,17 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Edge Webware",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3",
+    "ts-jest": "^28.0.7",
     "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "commander": "^9.4.0"
   }
 }
