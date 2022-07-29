@@ -1,5 +1,5 @@
 {
-  "name": "create-block",
+  "name": "ep-create-block",
   "version": "1.0.0",
   "description": "This is a module that allows you to scaffold new WordPress blocks with one command.",
   "main": "dist/index.js",
